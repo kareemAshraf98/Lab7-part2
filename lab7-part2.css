@@ -1,0 +1,45 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(130, 179, 229);
+}
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    font-weight: bold;
+    position:absolute;
+    font-size: 70px;
+    right: 500px;
+    margin: 230px;
+}
+.Clock-container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+.controls {
+    position: absolute;
+    right: 600px;
+    bottom: 300px;
+
+}
+.controls button {
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.controls .set-alarm {
+    background-color: rgb(70, 160, 70);
+}
+.controls .clear-alarm {
+    background-color: rgb(195, 95, 95);
+}
